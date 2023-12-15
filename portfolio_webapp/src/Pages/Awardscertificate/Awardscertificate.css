@@ -1,0 +1,55 @@
+.container {
+    margin-left: 20px;
+}
+
+.container h2 {
+    color: skyblue;
+}
+
+.intro ul {
+    list-style-type: disc;
+}
+
+.intro ul li {
+    transition: transform 0.5s ease;
+}
+
+.intro ul li:hover {
+    transform: translateY(-5px);
+    color: skyblue;
+}
+
+
+.allprojectlinks {
+    height: 500px;
+}
+
+.allprojectlinks h1 {
+    color: skyblue;
+}
+
+/* Set the color of the icon */
+.fa-linkedin {
+    color: #0077B5;
+    font-size: 100px;
+}
+
+/* Add the glowing effect on hover */
+.fa-linkedin:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Define the keyframe animation */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #0077B5;
+    }
+
+    to {
+        box-shadow: 0 0 20px #0077B5;
+    }
+}
+
+.allprojectlinks {
+   text-align: center;
+}
